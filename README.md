@@ -11,13 +11,13 @@ To run the server, make sure you have Go installed. Then, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Dityaren/Go-HTTP-Server
+git clone https://github.com/Cborgg/Forest_The_Toy_HTTP_Server.git
 ```
 
 2. Change into the project directory:
 
 ```bash
-cd Go-HTTP-Server
+cd main.go
 ```
 
 3. Build the project:
