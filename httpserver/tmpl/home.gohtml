@@ -1,0 +1,19 @@
+{{define "home"}}{{block "head" .}}<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{.Title}}</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	</head>
+	{{end}}
+
+	<h3>Welcome to {{.Title}}</h3>
+	<p>Your Public IP Address: {{.IP}}</p>
+
+	{{block "foot" .}}
+	<a href="/">Home</a>
+	<a href="/about">About</a>
+	<body>
+</html>
+{{end}}
+{{end}}
